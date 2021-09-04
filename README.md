@@ -1,4 +1,5 @@
 #Git настройка
+#https://github.com/iunir/itis
 1. Создать учетку Github.com
 2. Настроить ssh ключи:
    1. https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
