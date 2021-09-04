@@ -6,3 +6,6 @@
    2. https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
    3. https://github.com/settings/keys
 3. Склонировать данный репозиторий
+   1. git clone git@github.com:iunir/itis.git
+4. Подтягивание изменений
+   1. git pull
