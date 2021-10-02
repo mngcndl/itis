@@ -29,6 +29,19 @@ def delete_first(first):
     del first
     return result
 
+
+def delete_last(first):
+    if first is None or first.next is None:
+        return None
+    current = first
+    while current.next.next is not None:
+        current = current.next
+    to_be_deleted = current.next
+    del to_be_deleted
+    current.next = None
+    return first
+
+
 def print_list(first):
     # Выводим список
     print("!!!!!")
@@ -72,4 +85,8 @@ print_list(first)
 first = delete_first(first)
 print_list(first)
 first = delete_first(first)
+print_list(first)
+first = insert_first(first, 33)
+first = insert_first(first, 32)
+first = delete_last(first)
 print_list(first)
