@@ -69,7 +69,10 @@ for i in range(10):
 # first:   (321) -> (0) -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> (7) -> (8) -> (9) -> None
 # current: (321) -> (0) -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> (7) -> (8) -> (9) -> None
 # node:    (3) -> None
-first = insert_into_end_of_the_list(first, 1000)
+value = 1000
+first = insert_into_end_of_the_list(first, value)
+print("value", value)
+print("first.value", first.value)
 
 # Выводим список
 print_list(first)
