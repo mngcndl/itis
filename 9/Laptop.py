@@ -1,13 +1,13 @@
 class Laptop:
-    def __init__(self, name: str, cpu_cores: int, core_power: float):
+    def __init__(self, given_name: str, cpu_cores: int, core_power: float):
         """
         Constructor for Laptop class. Inits class properties
 
-        :param name: The Laptop brand name
+        :param given_name: The Laptop brand name
         :param cpu_cores: Number of CPU cores
         :param core_power: Each CPU power in GHz
         """
-        self.name = name
+        self.name = given_name
         self.cpu_cores = cpu_cores
         self.core_power = core_power
 
@@ -22,3 +22,7 @@ class Laptop:
 
     def __log(self, value):
         print(value)
+
+
+my_laptop = Laptop("Apple", 3, 2.7)
+print(my_laptop.name)
